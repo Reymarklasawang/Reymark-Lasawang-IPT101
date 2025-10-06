@@ -1,0 +1,6 @@
+D:\LasawangIPT101\LasawangDataBase\LasawangSaging\bin\Debug\LasawangSaging.dacpac
+D:\LasawangIPT101\LasawangDataBase\LasawangSaging\bin\Debug\LasawangSaging.dll
+D:\LasawangIPT101\LasawangDataBase\LasawangSaging\bin\Debug\LasawangSaging.pdb
+D:\LasawangIPT101\LasawangDataBase\LasawangSaging\obj\Debug\LasawangSaging.sqlproj.AssemblyReference.cache
+D:\LasawangIPT101\LasawangDataBase\LasawangSaging\obj\Debug\LasawangSaging.dll
+D:\LasawangIPT101\LasawangDataBase\LasawangSaging\obj\Debug\LasawangSaging.pdb

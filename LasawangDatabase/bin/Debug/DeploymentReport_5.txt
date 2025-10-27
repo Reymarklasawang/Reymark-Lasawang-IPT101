@@ -1,0 +1,28 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column banana_Id in table [dbo].[Banana] is currently  VARCHAR (40) NULL but is being changed to  INT NULL.
+         Data loss could occur and deployment may fail if the column contains data that is incompatible with type  INT NULL.
+       The type for column size in table [dbo].[Banana] is currently  VARCHAR (20) NULL but is being changed to  INT NULL. Data
+         loss could occur and deployment may fail if the column contains data that is incompatible with type  INT NULL.
+
+** User actions
+     Alter
+       [dbo].[Banana] (Table)
+       [dbo].[CreateBanana] (Procedure)
+       [dbo].[DeleteBanana] (Procedure)
+       [dbo].[GetBanana] (Procedure)
+       [dbo].[UpdateBanana] (Procedure)
+
+** Supporting actions
+     Refresh
+       [dbo].[GetAllBanana] (Procedure)
+
+The type for column banana_Id in table [dbo].[Banana] is currently  VARCHAR (40) NULL but is being changed to  INT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  INT NULL.
+The type for column size in table [dbo].[Banana] is currently  VARCHAR (20) NULL but is being changed to  INT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  INT NULL.
+

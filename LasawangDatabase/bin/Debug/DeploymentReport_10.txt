@@ -1,0 +1,33 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column banana_Id in table [dbo].[Banana] is currently  VARCHAR (40) NULL but is being changed to  INT NOT
+         NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  INT NOT
+         NULL.
+       The type for column size in table [dbo].[Banana] is currently  VARCHAR (20) NULL but is being changed to  INT NOT NULL.
+         Data loss could occur and deployment may fail if the column contains data that is incompatible with type  INT NOT NULL.
+
+** User actions
+     Alter
+       [dbo].[Banana] (Table)
+       [dbo].[CreateBanana] (Procedure)
+       [dbo].[GetBanana] (Procedure)
+       [dbo].[UpdateBanana] (Procedure)
+     Create
+       [dbo].[BananaID] (Procedure)
+
+** Supporting actions
+     Refresh
+       [dbo].[GetAllBanana] (Procedure)
+
+The column banana_Id on table [dbo].[Banana] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The type for column banana_Id in table [dbo].[Banana] is currently  VARCHAR (40) NULL but is being changed to  INT NOT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  INT NOT NULL.
+The column size on table [dbo].[Banana] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The type for column size in table [dbo].[Banana] is currently  VARCHAR (20) NULL but is being changed to  INT NOT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  INT NOT NULL.
+If this deployment is executed, changes to [dbo].[Banana] might introduce run-time errors in [dbo].[DeleteBanana].
+
